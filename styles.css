@@ -1,96 +1,223 @@
+/*style partie body*/
+
 body {
 
     display: flex
 }
 
+
+
+                          /*style partie left*/
+
+
+
 .left {
 
-    background-color: #ff1a8c;
+    background-color: #E3E314  ;
     width: 400px;
+    text-align: center;
+    color: red;
     
 }
 
 
-.soustitre {
+.photo {
+
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px white;
+    
+}
+
+figure {
 
     text-align: center;
-    
 }
+   
+
+
+}
+
+
 .loisirs {
 
     text-align: center;
 }
 
 
-.contact {
+.contact, .profil, .hoby {
 
-    background-color: chartreuse;
-    border-bottom: solid;
+    background-color: RED;
+    border-bottom: solid white;
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-align: center;
+   
 }
 
-.profil {
+
+
+.my {
+
+    font-size:20px;
+
+    text-align: justify;
+
+    height: 500px;
+
     
-    background-color: chartreuse;
-    border-bottom: solid;
 
-}
-
-.hoby {
+    margin: 10px 10px 10px 10px;
     
-    background-color: chartreuse;
-    border-bottom: solid;
 }
+
+
+
+
+
+
+
+
+
+                            /*style partie right*/
+
+
+                            
    
 .right {
 
-    background-color: blueviolet;
+    background-color: red  ;
     width: 950px;
+    padding-left: 30px;
+    color: yellow;
 }
 
-.formations {
-    
-    
-    border-bottom: solid;
-    text-align: center;
-    font-size: 40px;
-}
+.dev {
 
-.experience {
-    
-    text-align: center;
-    border-bottom: solid;
-    font-size: 40px;
-}
+    color: #E3E314;
 
-.recomendation {
-
-    text-align: center;
-    
-    border-bottom: solid;
-    font-size: 40px;
+    font-size: 20px;
+   
+    padding-bottom: 60px;
 }
 
 .moi {
     font-size: xx-large;
-    text-align: start;
+    text-align: start;  
+   
 }
 
 h1 {
 
-    font-size: 50px;
-    color: yellowgreen;
-    text-decoration: underline chocolate;
+    font-size: 40px;
+    color:#E3E314;
+    text-decoration: unset #9c9c87;  
+
+    
+    padding-top: 50px;
+}
+
+.zaid {
+
+    color: white;    
+}
+
+
+.formations, .experience, .recomendation {
+
+    text-align: center;
+    
+    border-bottom: solid white;
+    font-size: 40px;
+
+    color: white;
 
 }
+
+
+
+
+
+
+
 
 .info-one, .info-two, .info-three {
 
     display: flex;
 }
 
-.right {
 
-    padding-left: 30px;
+
+.experience-one, .experience-two, .experience-three {
+
+    display: flex;
+
+    margin-right: 10px;
 }
+
+
+
+
+.dates{
+
+    padding-top: 18px;
+
+    display: flex;
+    font-size: large;  
+
+}
+
+.titre {
+
+    padding-left: 50px;
+    
+}
+
+.fas {
+
+    margin-left: 10px;
+
+    margin-right: 20px;
+    border-radius: 50%;
+    
+
+    
+}
+
+.motifs {
+
+    display: flex;
+
+    justify-content: center;
+
+    justify-content: space-around;
+
+    
+}
+
+
+
+.souligner {
+
+    border-bottom: solid white;
+}
+
+.resumé {
+
+    color: yellow;
+}
+
+.rec {
+
+    display: flex;
+
+   justify-content: space-around;
+
+    font-size: 20px;
+    
+}
+
+
 
 
