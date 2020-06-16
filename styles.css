@@ -15,6 +15,7 @@ body {
 
     background-color: #E3E314  ;
     width: 400px;
+    
     text-align: center;
     color: red;
     
@@ -61,10 +62,13 @@ figure {
 .my {
 
     font-size:20px;
+    line-height: 30px;
 
     text-align: justify;
 
     height: 500px;
+
+   padding: 0px 20px 10px 20px;
 
     
 
@@ -89,6 +93,7 @@ figure {
 
     background-color: red  ;
     width: 950px;
+    height: 100%;
     padding-left: 30px;
     color: yellow;
 }
@@ -112,7 +117,7 @@ h1 {
 
     font-size: 40px;
     color:#E3E314;
-    text-decoration: unset #9c9c87;  
+   
 
     
     padding-top: 50px;
@@ -145,6 +150,7 @@ h1 {
 .info-one, .info-two, .info-three {
 
     display: flex;
+  
 }
 
 
@@ -164,7 +170,11 @@ h1 {
     padding-top: 18px;
 
     display: flex;
+
+    
     font-size: large;  
+
+    margin-left: 10px;
 
 }
 
@@ -212,12 +222,77 @@ h1 {
 
     display: flex;
 
+    text-align: justify;
+
    justify-content: space-around;
 
     font-size: 20px;
     
 }
 
+/* styles media query */
+
+@media screen and (max-width: 500px) {
+
+    body {
+
+        display: block;
+
+        
+    }
+
+    .left {
+
+        width: 100%;
+
+       
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .right {
+
+        width: 100%;
+
+       
+
+        
+        
+
+        
+    }
+
+    .info-one, .info-two, .info-three {
+
+        display: block;
+        text-overflow: ellipsis;
+    }
+
+    .experience-one, .experience-two, .experience-three {
+
+        display: block;
+        text-overflow: ellipsis;
+       
+    }
+
+    .photo {
+
+        margin-top: 20px;
+    }
+
+    .right, .left {
+
+        display: inline-block;
+
+        
+    }
+
+   
+
+
+
+    
+}
 
 
 
