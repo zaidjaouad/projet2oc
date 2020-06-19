@@ -14,7 +14,7 @@ body {
 .left {
 
     background-color: #E3E314  ;
-    width: 400px;
+    width: 30%;
     
     text-align: center;
     color: red;
@@ -26,6 +26,8 @@ body {
 
     border-radius: 50%;
     box-shadow: 5px 5px 5px white;
+
+    
     
 }
 
@@ -47,6 +49,8 @@ figure {
 
 .contact, .profil, .hoby {
 
+    width: 100%;
+
     background-color: RED;
     border-bottom: solid white;
     font-size: 30px;
@@ -62,13 +66,16 @@ figure {
 .my {
 
     font-size:20px;
-    line-height: 30px;
+    font-family: cursive, sans-serif;
+    
 
     text-align: justify;
 
     height: 500px;
 
    padding: 0px 20px 10px 20px;
+
+   
 
     
 
@@ -92,9 +99,9 @@ figure {
 .right {
 
     background-color: red  ;
-    width: 950px;
+    width: 70%;
     height: 100%;
-    padding-left: 30px;
+    
     color: yellow;
 }
 
@@ -110,6 +117,8 @@ figure {
 .moi {
     font-size: xx-large;
     text-align: start;  
+
+    
    
 }
 
@@ -137,6 +146,7 @@ h1 {
     font-size: 40px;
 
     color: white;
+    font-family: "Gill Sans", sans-serif;
 
 }
 
@@ -150,6 +160,10 @@ h1 {
 .info-one, .info-two, .info-three {
 
     display: flex;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   
   
 }
 
@@ -160,6 +174,10 @@ h1 {
     display: flex;
 
     margin-right: 10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
 }
 
 
@@ -237,29 +255,19 @@ h1 {
     body {
 
         display: block;
-
-        
+   
     }
 
     .left {
 
         width: 100%;
-
-       
-        margin: 0px;
-        padding: 0px;
+        
     }
 
     .right {
 
-        width: 100%;
+        width: 100%;        
 
-       
-
-        
-        
-
-        
     }
 
     .info-one, .info-two, .info-three {
@@ -272,7 +280,6 @@ h1 {
 
         display: block;
         text-overflow: ellipsis;
-       
     }
 
     .photo {
@@ -283,15 +290,87 @@ h1 {
     .right, .left {
 
         display: inline-block;
+        
+    }
 
+    .rec {
+
+        text-align: justify;
+    }
+
+    
+}
+
+@media screen and (max-width: 700px) {
+
+    .my {
+
+        overflow: hidden;
+
+    }
+
+    .motifs {
+
+        overflow: auto;
+    }
+
+    .left {
+
+        width: 100%;
+
+        
+
+        
+        
+    }
+
+    .right {
+
+        width: 100%;   
+        
+        
         
     }
 
    
+}
 
+@media screen and (max-width: 980px) {
 
+    .motifs {
+
+        display: block;
+    }
+
+    .left {
+
+        width: 100%;
+
+          
+        
+    }
+
+    .right {
+
+        width: 100%;   
+
+       
+    }
 
     
+
+    .contact {
+
+        width: 100%;
+
+       
+        
+        
+        
+    }
+
+    
+
 }
 
 
