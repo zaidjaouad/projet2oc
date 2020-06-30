@@ -2,7 +2,8 @@
 
 body {
 
-    display: flex
+    display: flex;
+
 }
 
 
@@ -13,11 +14,13 @@ body {
 
 .left {
 
-    background-color: #E3E314  ;
+    background-color: #FFBF00  ;
     width: 30%;
     
     text-align: center;
-    color: red;
+    color: black;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -27,6 +30,9 @@ body {
     border-radius: 50%;
     box-shadow: 5px 5px 5px white;
 
+    margin-top: 20px;
+
+
     
     
 }
@@ -34,11 +40,13 @@ body {
 figure {
 
     text-align: center;
+    
+    
 }
    
 
 
-}
+
 
 
 .loisirs {
@@ -51,11 +59,11 @@ figure {
 
     width: 100%;
 
-    background-color: RED;
+    background-color: black;
     border-bottom: solid white;
     font-size: 30px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFBF00;
+   
 
     text-align: center;
    
@@ -67,25 +75,13 @@ figure {
 
     font-size:20px;
     font-family: cursive, sans-serif;
-    
-
     text-align: justify;
-
-    height: 500px;
-
+    height: 600px;
    padding: 0px 20px 10px 20px;
-
-   
-
-    
 
     margin: 10px 10px 10px 10px;
     
 }
-
-
-
-
 
 
 
@@ -98,43 +94,36 @@ figure {
    
 .right {
 
-    background-color: red  ;
+    background-color:white  ;
     width: 70%;
     height: 100%;
+    margin-left: 20px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-    color: yellow;
+    color: black;
 }
 
 .dev {
 
-    color: #E3E314;
+    color: black;
 
     font-size: 20px;
    
     padding-bottom: 60px;
 }
 
-.moi {
-    font-size: xx-large;
-    text-align: start;  
-
-    
-   
-}
 
 h1 {
 
-    font-size: 40px;
-    color:#E3E314;
-   
-
-    
+    font-size:50px;
+    color: black;  
     padding-top: 50px;
 }
 
 .zaid {
 
-    color: white;    
+    color: #FFBF00;    
 }
 
 
@@ -142,18 +131,13 @@ h1 {
 
     text-align: center;
     
-    border-bottom: solid white;
+    border-bottom: solid #FFBF00;
     font-size: 40px;
 
-    color: white;
+    color: black;
     font-family: "Gill Sans", sans-serif;
 
 }
-
-
-
-
-
 
 
 
@@ -173,7 +157,7 @@ h1 {
 
     display: flex;
 
-    margin-right: 10px;
+    
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -189,6 +173,10 @@ h1 {
 
     display: flex;
 
+    color: #FFBF00;
+
+    
+
     
     font-size: large;  
 
@@ -199,17 +187,23 @@ h1 {
 .titre {
 
     padding-left: 50px;
+
+    
     
 }
+
+}
+
+
 
 .fas {
 
     margin-left: 10px;
 
-    margin-right: 20px;
-    border-radius: 50%;
     
 
+    margin-right: 20px;
+    border-radius: 50%;
     
 }
 
@@ -220,7 +214,6 @@ h1 {
     justify-content: center;
 
     justify-content: space-around;
-
     
 }
 
@@ -228,12 +221,13 @@ h1 {
 
 .souligner {
 
-    border-bottom: solid white;
+    border-bottom: solid #FFBF00;
+   
 }
 
 .resumé {
 
-    color: yellow;
+    color: #FFBF00;
 }
 
 .rec {
@@ -248,7 +242,11 @@ h1 {
     
 }
 
-/* styles media query */
+
+
+/* styles media query 500px */
+
+
 
 @media screen and (max-width: 500px) {
 
@@ -301,6 +299,8 @@ h1 {
     
 }
 
+/* styles media query 700px */
+
 @media screen and (max-width: 700px) {
 
     .my {
@@ -309,31 +309,27 @@ h1 {
 
     }
 
-    .motifs {
-
-        overflow: auto;
-    }
+    
 
     .left {
 
-        width: 100%;
-
-        
-
-        
+        width: 100%;   
         
     }
 
     .right {
 
-        width: 100%;   
-        
-        
-        
+        width: 100%;    
     }
 
    
 }
+
+
+
+/* styles media query 980px */
+
+
 
 @media screen and (max-width: 980px) {
 
@@ -344,29 +340,20 @@ h1 {
 
     .left {
 
-        width: 100%;
-
-          
+        width: 100%;     
         
     }
 
     .right {
 
         width: 100%;   
-
-       
     }
 
     
 
     .contact {
 
-        width: 100%;
-
-       
-        
-        
-        
+        width: 100%;  
     }
 
     
